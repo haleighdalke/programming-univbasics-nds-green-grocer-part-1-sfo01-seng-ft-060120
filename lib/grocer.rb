@@ -19,12 +19,6 @@ def consolidate_cart(cart)
     else
       index = new_cart.index(e)
       new_cart[index][:count] += 1
-  #  else
-    #  temp_item = find_item_by_name_in_collection(e[:item], new_cart)
-    #  temp_item[:count] += 1
-    #  new_cart.map { |e|
-    #    if e[]}
-    #  new_cart.push(e with e[:count] = 1)
     end
   end
   new_cart
